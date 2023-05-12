@@ -285,8 +285,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const guestsTabList = document.querySelectorAll('.guests__accordion-content');
   const guestsArr = [{
     id: 0,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Сергей Денисов',
     instagram: '#',
     facebook: '#',
@@ -297,8 +297,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 1,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Евгений Войновский',
     instagram: '#',
     facebook: '#',
@@ -309,8 +309,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 2,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Олег Свиридовский',
     instagram: '#',
     facebook: '#',
@@ -321,8 +321,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 3,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Денис Тельман',
     instagram: '#',
     facebook: '#',
@@ -333,8 +333,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 4,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Матвей Мечников',
     instagram: '#',
     facebook: '#',
@@ -345,8 +345,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 5,
-    img: '/img/guests-img.jpg',
-    imgTablet: '/img/768/guests-img-768.jpg',
+    img: 'img/guests-img.jpg',
+    imgTablet: 'img/768/guests-img-768.jpg',
     name: 'Ольга Мартынова',
     instagram: '#',
     facebook: '#',
@@ -358,8 +358,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 6,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Владислав Кауперс',
     instagram: '#',
     facebook: '#',
@@ -370,8 +370,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 7,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Юрий Горин',
     instagram: '#',
     facebook: '#',
@@ -382,8 +382,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 8,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Константин Прусино',
     instagram: '#',
     facebook: '#',
@@ -394,8 +394,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 9,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Дмитрий Михалок',
     instagram: '#',
     facebook: '#',
@@ -406,8 +406,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 10,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Михаил Пожитников',
     instagram: '#',
     facebook: '#',
@@ -418,8 +418,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 11,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Максим Сергеев',
     instagram: '#',
     facebook: '#',
@@ -430,8 +430,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 12,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Иван Калитников',
     instagram: '#',
     facebook: '#',
@@ -442,8 +442,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 13,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Пётр Пиотровский',
     instagram: '#',
     facebook: '#',
@@ -454,8 +454,8 @@ document.addEventListener('DOMContentLoaded', function () {
   },
   {
     id: 14,
-    img: '/img/guests-plug.jpg',
-    imgTablet: '/img/768/guests-plug-768.jpg',
+    img: 'img/guests-plug.jpg',
+    imgTablet: 'img/768/guests-plug-768.jpg',
     name: 'Георгий Полуян',
     instagram: '#',
     facebook: '#',
@@ -517,7 +517,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const swiper = new Swiper('.about__swiper', {
     loop: true,
     a11y: {
-      paginationBulletMessage: `Авторы курса {{index}}`,
+      paginationBulletMessage: `Сотрудник компании {{index}}`,
     },
     breakpoints: {
       320: {

@@ -1063,7 +1063,7 @@
     left: auto;
     min-width: 639px;
     min-height: 112px;
-    background-image: url("/img/768/about-icon-one-768.svg");
+    background-image: url("../img/768/about-icon-one-768.svg");
   }
 
   .about__info::after {
@@ -1075,7 +1075,7 @@
     left: auto;
     min-width: 112px;
     min-height: 112px;
-    background-image: url("/img/768/about-icon-two-768.svg");
+    background-image: url("../img/768/about-icon-two-768.svg");
     background-repeat: no-repeat;
   }
 

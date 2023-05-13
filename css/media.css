@@ -165,7 +165,8 @@
   }
 
   .playlists__artists-img {
-    width: 100%;
+    width: 93%;
+    min-width: 112px;
   }
 
   .playlists__artists-img img {
@@ -206,7 +207,6 @@
   .playlists__artists-link {
     flex-direction: row;
     width: 100%;
-    margin-top: -1px;
     margin-left: 0;
     border-top: 1px solid #E6E8EC;
     border-left: none;
@@ -225,15 +225,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: -1px;
     padding: 0;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
     width: 100%;
     height: 100%;
-  }
-
-  .playlists__artists-img {
-    min-width: 112px;
+    box-sizing: border-box;
   }
 
   /* adv */
@@ -313,6 +310,7 @@
   }
 
   .playlists__artists-link:hover .playlists__descr-info {
+    border-color: var(--color-light-grey);
     background-color: inherit;
   }
 
@@ -333,6 +331,7 @@
   }
 
   .playlists__artists-link:active .playlists__descr-info {
+    border-color:  var(--color-dark-violet);
     background-color: var(--color-dark-violet);
   }
 
@@ -490,10 +489,30 @@
     margin-bottom: 31px;
   }
 
+  /* playlists */
+
+  .playlists__artists-img {
+    width: 83%;
+  }
+
+  .playlists__descr-info {
+    padding-top: 9px;
+    padding-right: 8px;
+  }
+
+  .playlists__name {
+    margin-bottom: 5px;
+  }
+
+
   /* adv */
 
   .adv__img {
     padding-top: 123px;
+  }
+
+  .adv__link {
+    padding: 22px 11.5px 24px 9.5px;
   }
 
   /* about */
@@ -544,7 +563,7 @@
   }
 
   .about__checkbox-label {
-    padding-right: 23px;
+    padding-left: 23px;
   }
 
   /* footer */
@@ -774,13 +793,13 @@
   }
 
   .podcasts__list {
-    margin-bottom: 29px;
+    margin-bottom: 28px;
   }
 
   .podcasts__item {
-    width: 100%;
     margin-right: 0;
     margin-bottom: 28.5px;
+    width: 100%;
   }
 
   .podcasts__item:nth-last-child(-n+2) {
@@ -797,6 +816,10 @@
 
   .podcasts__item--hide:nth-last-child(-n+2) {
     margin-bottom: 0;
+  }
+
+  .podcasts__button-more {
+    padding: 25px 52px 21px 52px;
   }
 
   /* broadcast */
@@ -870,6 +893,7 @@
   .broadcast__link-detailed::before {
     min-height: 66%;
   }
+
 
   /* guests */
   .guests {
@@ -2026,7 +2050,7 @@
   /* playlists */
 
   .playlists {
-    margin-bottom: 49px;
+    margin-bottom: 50px;
   }
 
   .playlists__container {
@@ -2072,6 +2096,11 @@
   .playlists__artists-item:nth-last-child(-n+2) {
     margin-bottom: 0;
   }
+
+  .playlists__descr-info {
+    padding: 9px 8px 9px 10px
+  }
+
 
   .playlists__name {
     margin-bottom: 5px;

@@ -820,7 +820,7 @@ img {
 /* left */
 
 .broadcast {
-  margin-bottom: 92px;
+  margin-bottom: 95px;
 }
 
 .broadcast__container {
@@ -898,7 +898,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 9px 13px 9px 12px;
+  padding: 9px 9px 9px 12px;
   border: 1px solid var(--color-light-grey);
   border-radius: 10px;
   background-color: var(--color-light-grey);
@@ -1060,7 +1060,7 @@ img {
   display: flex;
   flex-direction: column;
   margin-right: 30px;
-  margin-bottom: 31px;
+  margin-bottom: 29px;
   width: calc((100% / 3) - 23px);
   border: 1px solid var(--color-light-grey);
 }
@@ -1520,7 +1520,7 @@ img {
 /* playlists */
 
 .playlists {
-  margin-bottom: 91px;
+  margin-bottom: 94px;
 }
 
 .playlists__container {
@@ -1693,7 +1693,7 @@ img {
   display: flex;
   width: calc((100% / 4) - 22.5px);
   margin-right: 30px;
-  margin-bottom: 28px;
+  margin-bottom: 29px;
 }
 
 .playlists__artists-item::after {
@@ -1726,9 +1726,6 @@ img {
   flex-direction: column;
   margin-left: -1px;
   margin-right: -1px;
-  border-right: 1px solid #E6E8EC;
-  border-bottom: 1px solid #E6E8EC;
-  border-left: 1px solid #E6E8EC;
   outline: none;
 }
 
@@ -1750,6 +1747,7 @@ img {
 }
 
 .playlists__artists-link:focus-visible .playlists__descr-info {
+  border-color: var(--color-light-violet);
   background-color: var(--color-light-violet);
 }
 
@@ -1767,6 +1765,7 @@ img {
 }
 
 .playlists__artists-link:focus .playlists__descr-info {
+  border-color: var(--color-light-violet);
   background-color: var(--color-light-violet);
 }
 
@@ -1784,6 +1783,7 @@ img {
 }
 
 .playlists__artists-link:hover .playlists__descr-info {
+  border-color:  var(--color-violet);
   background-color: var(--color-violet);
 }
 
@@ -1793,6 +1793,7 @@ img {
 }
 
 .playlists__artists-link:active .playlists__descr-info {
+  border-color:  var(--color-dark-violet);
   background-color: var(--color-dark-violet);
 }
 
@@ -1802,9 +1803,10 @@ img {
 }
 
 .playlists__descr-info {
-  padding: 17px 0 14px 16px;
+  padding: 15px 16px 13px 16px;
   height: 100%;
-  transition: background-color .3s ease-in-out;
+  border: 1px solid #E6E8EC;
+  transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
 }
 
 .playlists__artists-img::before {
@@ -2029,7 +2031,7 @@ img {
 }
 
 .about__swiper {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   overflow: hidden;
 }
 
@@ -2045,7 +2047,7 @@ img {
 
 .about__desc {
   margin: 0;
-  margin-bottom: 29px;
+  margin-bottom: 30px;
   max-width: 58%;
   font-weight: 400;
   font-size: 20px;
@@ -2189,7 +2191,7 @@ img {
   display: inline-block;
   padding: 30px 10px 10px 32px;
   width: 95%;
-  min-height: 107px;
+  min-height: 108px;
   resize: none;
   border: 1px solid var(--color-white);
   border-radius: 30px;
@@ -2274,7 +2276,7 @@ img {
 }
 
 .about__input {
-  padding: 25px 0 25px 32px;
+  padding: 25px 0 23px 32px;
   width: 92%;
   border: 1px solid var(--color-white);
   border-radius: 40px;

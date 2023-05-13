@@ -2044,10 +2044,6 @@
     line-height: 12px;
   }
 
-  .playlists__radio-list {
-    overflow-x: scroll;
-  }
-
   .playlists__radio-item {
     margin-right: 19px;
   }
@@ -2220,6 +2216,11 @@
   .about__input {
     padding: 14px 0 14px 22px;
     width: 89%;
+  }
+
+  .just-validate-error-label {
+    top: 4px;
+    left: 23px;
   }
 
   .about__input::placeholder {

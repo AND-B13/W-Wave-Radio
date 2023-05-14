@@ -22,40 +22,10 @@ img {
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: local('Muller'),
-    url('../font/MullerExtraBold.woff2') format('woff2'),
-    url('../font/MullerExtraBold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Muller';
-  src: local('MullerMedium'),
-    url('../font/MullerMedium.woff2') format('woff2'),
-    url('../font/MullerMedium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Muller';
-  src: local('MullerLight'),
-    url('../font/MullerLight.woff2') format('woff2'),
-    url('../font/MullerLight.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Muller';
-  src: local('MullerMediumItalic'),
-    url('../font/MullerMediumItalic.woff2') format('woff2'),
-    url('../font/MullerMediumItalic.woff') format('woff');
+  font-family: 'OpenSans';
+  src: local('OpenSansRegular'),
+    url('../fonts/OpenSansRegular.woff2') format('woff2'),
+    url('../fonts/OpenSansRegular.woff') format('woff');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -64,10 +34,51 @@ img {
 @font-face {
   font-family: 'Muller';
   src: local('MullerLightItalic'),
-    url('../font/MullerLightItalic.woff2') format('woff2'),
-    url('../font/MullerLightItalic.woff') format('woff');
+    url('../fonts/MullerLightItalic.woff2') format('woff2'),
+    url('../fonts/MullerLightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('MullerRegular'),
+    url('../fonts/MullerRegular.woff2') format('woff2'),
+    url('../fonts/MullerRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('MullerRegularItalic'),
+    url('../fonts/MullerRegularItalic.woff2') format('woff2'),
+    url('../fonts/MullerRegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('MullerMedium'),
+    url('../fonts/MullerMedium.woff2') format('woff2'),
+    url('../fonts/MullerMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Muller';
+  src: local('MullerBold'),
+    url('../fonts/MullerBold.woff2') format('woff2'),
+    url('../fonts/MullerBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -429,8 +440,9 @@ img {
 }
 
 .header__age-text {
-  padding: 8px 7px 6px 4px;
+  padding: 7px 5px 7px 3px;
   border-radius: 100px;
+  font-family: 'OpenSans';
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -1672,6 +1684,7 @@ img {
   min-height: 30px;
   border: 1px solid var(--color-grey);
   border-radius: 100px;
+  font-family: 'OpenSans';
   text-align: center;
   font-weight: 400;
   font-size: 12px;
@@ -1783,7 +1796,7 @@ img {
 }
 
 .playlists__artists-link:hover .playlists__descr-info {
-  border-color:  var(--color-violet);
+  border-color: var(--color-violet);
   background-color: var(--color-violet);
 }
 
@@ -1793,7 +1806,7 @@ img {
 }
 
 .playlists__artists-link:active .playlists__descr-info {
-  border-color:  var(--color-dark-violet);
+  border-color: var(--color-dark-violet);
   background-color: var(--color-dark-violet);
 }
 

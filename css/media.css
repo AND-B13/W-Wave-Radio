@@ -164,12 +164,12 @@
     top: 10px;
   }
 
-  .playlists__artists-img {
+  .playlists__artists-picture {
     width: 93%;
     min-width: 112px;
   }
 
-  .playlists__artists-img img {
+  .playlists__artists-img {
     width: 100%;
   }
 
@@ -239,12 +239,12 @@
     padding-bottom: 94px;
   }
 
-  .adv__img {
+  .adv__picture {
     padding-top: 70px;
     width: 48%;
   }
 
-  .adv__img::after {
+  .adv__picture::after {
     top: 117px;
     left: 0;
   }
@@ -301,7 +301,7 @@
   }
 
 
-  .playlists__artists-link:hover .playlists__artists-img::before {
+  .playlists__artists-link:hover .playlists__artists-picture::before {
     opacity: 0;
   }
 
@@ -322,7 +322,7 @@
     color: var(--color-grey);
   }
 
-  .playlists__artists-link:active .playlists__artists-img::before {
+  .playlists__artists-link:active .playlists__artists-picture::before {
     opacity: 0.8;
   }
 
@@ -476,7 +476,7 @@
     margin-right: 0;
   }
 
-  .guests__img {
+  .guests__picture {
     font-size: 0;
     margin-bottom: 11px;
   }
@@ -491,7 +491,11 @@
 
   /* playlists */
 
-  .playlists__artists-img {
+  .playlists__footnote {
+    margin-bottom: 12px;
+  }
+
+  .playlists__artists-picture {
     width: 83%;
   }
 
@@ -507,7 +511,7 @@
 
   /* adv */
 
-  .adv__img {
+  .adv__picture {
     padding-top: 123px;
   }
 
@@ -572,7 +576,7 @@
     padding-top: 93px;
   }
 
-  .footer__logo-img {
+  .footer__logo-picture {
     font-size: 0;
   }
 
@@ -876,7 +880,7 @@
     padding-bottom: 61px;
   }
 
-  .broadcast__img {
+  .broadcast__picture {
     max-width: 370px;
     max-height: 215px;
     font-size: 0;
@@ -894,8 +898,8 @@
     min-height: 66%;
   }
 
-
   /* guests */
+
   .guests {
     padding-top: 95px;
   }
@@ -930,7 +934,7 @@
     width: 100%;
   }
 
-  .guests__img {
+  .guests__picture {
     margin-bottom: 12px;
   }
 
@@ -939,10 +943,11 @@
     max-width: 75%;
   }
 
-
   .playlists {
     padding-bottom: 89px;
   }
+
+  /* playlists */
 
   .playlists__container {
     margin-bottom: 50px;
@@ -955,7 +960,7 @@
   }
 
   .playlists__title {
-    margin-bottom: 9px;
+    margin-bottom: 11px;
   }
 
   .playlists__footnote {
@@ -1016,14 +1021,14 @@
     flex-direction: column;
   }
 
-  .adv__img {
+  .adv__picture {
     margin-right: 0;
     margin-bottom: 45px;
     padding-top: 0;
     width: 100%;
   }
 
-  .adv__img::after {
+  .adv__picture::after {
     top: 0;
     width: 30%;
     height: 33%;
@@ -1512,7 +1517,7 @@
   .playlists__radio-list {
     flex-direction: initial;
     flex-wrap: nowrap;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     padding-bottom: 15px;
     width: 100%;
     max-width: 100%;
@@ -1594,7 +1599,7 @@
     right: 0;
   }
 
-  .playlists__artists-img {
+  .playlists__artists-picture {
     width: 100%;
     box-sizing: border-box;
   }
@@ -1816,11 +1821,11 @@
     margin-bottom: 0px;
   }
 
-  .podcasts__img {
+  .podcasts__picture {
     max-height: 72px;
   }
 
-  .podcasts__img img {
+  .podcasts__img {
     width: 100%;
   }
 
@@ -2030,11 +2035,11 @@
     line-height: 110%;
   }
 
-  .guests__img {
+  .guests__picture {
     margin-bottom: 10px;
   }
 
-  .guests__img img {
+  .guests__img {
     width: 100%;
   }
 
@@ -2059,11 +2064,11 @@
   /* playlists */
 
   .playlists {
-    margin-bottom: 50px;
+    margin-bottom: 49px;
   }
 
   .playlists__container {
-    padding-bottom: 31px;
+    padding-bottom: 33px;
   }
 
   .playlists__title {
@@ -2107,7 +2112,7 @@
   }
 
   .playlists__descr-info {
-    padding: 9px 8px 9px 10px
+    padding: 9px 8px 8px 10px
   }
 
 
@@ -2142,11 +2147,11 @@
     padding-bottom: 54px;
   }
 
-  .adv__img {
+  .adv__picture {
     margin-bottom: 32px;
   }
 
-  .adv__img::after {
+  .adv__picture::after {
     width: 24.5%;
     height: 28%;
   }
@@ -2222,7 +2227,7 @@
     overflow: visible;
   }
 
-  .about__swiper-image {
+  .about__swiper-picture {
     margin-bottom: 8px;
   }
 

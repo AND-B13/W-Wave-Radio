@@ -19,11 +19,11 @@
     <header class="header">
       <div class="header__top">
         <div class="header__container-top container">
-          <a href="#" class="header__link-logo" aria-label="Перейти на главную страницу W-Wave Radio">
-            <picture class="header__logo">
+          <a href="#" class="header__link-logo link-reset" aria-label="Перейти на главную страницу W-Wave Radio">
+            <picture class="header__picture">
               <source srcset="img/320/header-logo-320.svg" media="(max-width: 480px)">
               <source srcset="img/1024/header-logo-1024.svg" media="(max-width: 1024px)">
-              <img src="img/header-logo.svg" alt="Логотип W-Wave Radio">
+              <img class="header__logo img-start" src="img/header-logo.svg" alt="Логотип W-Wave Radio">
             </picture>
           </a>
           <button class="header__burger btn-reset" id="burger" aria-label="Открыть меню навигации по сайту">
@@ -32,23 +32,23 @@
           <nav class="header__top-nav">
             <ul class="header__nav-list header__nav-list--top list-reset">
               <li class="header__nav-item header__nav-item--top">
-                <a href="#podcasts" class="header__nav-link header__nav-link--top"
+                <a href="#podcasts" class="header__nav-link header__nav-link--top link-reset"
                   aria-label="Перейти к разделу Подкасты">Подкасты</a>
               </li>
               <li class="header__nav-item header__nav-item--top">
-                <a href="#broadcast" class="header__nav-link header__nav-link--top"
+                <a href="#broadcast" class="header__nav-link header__nav-link--top link-reset"
                   aria-label="Перейти к разделу Передачи">Передачи</a>
               </li>
               <li class="header__nav-item header__nav-item--top">
-                <a href="#guests" class="header__nav-link header__nav-link--top"
+                <a href="#guests" class="header__nav-link header__nav-link--top link-reset"
                   aria-label="Перейти к разделу Гости">Гости</a>
               </li>
               <li class="header__nav-item header__nav-item--top">
-                <a href="#playlists" class="header__nav-link header__nav-link--top"
+                <a href="#playlists" class="header__nav-link header__nav-link--top link-reset"
                   aria-label="Перейти к разделу Плейлисты">Плейлисты</a>
               </li>
               <li class="header__nav-item header__nav-item--top">
-                <a href="#about" class="header__nav-link header__nav-link--top"
+                <a href="#about" class="header__nav-link header__nav-link--top link-reset"
                   aria-label="Перейти к разделу О нас">О&nbsp;нас</a>
               </li>
             </ul>
@@ -77,20 +77,26 @@
           <nav class="header__bottom-nav">
             <ul class="header__nav-list header__nav-list--bottom list-reset">
               <li class="header__nav-item header__nav-item--bottom"><a href="#"
-                  class="header__nav-link header__nav-link--bottom" aria-label="Перейти к разделу Новости">Новости</a>
+                  class="header__nav-link header__nav-link--bottom link-reset"
+                  aria-label="Перейти к разделу Новости">Новости</a>
               </li>
               <li class="header__nav-item header__nav-item--bottom"><a href="#"
-                  class="header__nav-link header__nav-link--bottom" aria-label="Перейти к разделу Блоги">Блоги</a></li>
+                  class="header__nav-link header__nav-link--bottom link-reset"
+                  aria-label="Перейти к разделу Блоги">Блоги</a></li>
               <li class="header__nav-item header__nav-item--bottom"><a href="#"
-                  class="header__nav-link header__nav-link--bottom" aria-label="Перейти к разделу Топы">Топы</a></li>
+                  class="header__nav-link header__nav-link--bottom link-reset"
+                  aria-label="Перейти к разделу Топы">Топы</a></li>
               <li class="header__nav-item header__nav-item--bottom"><a href="#"
-                  class="header__nav-link header__nav-link--bottom" aria-label="Перейти к разделу Опросы">Опросы</a>
+                  class="header__nav-link header__nav-link--bottom link-reset"
+                  aria-label="Перейти к разделу Опросы">Опросы</a>
               </li>
               <li class="header__nav-item header__nav-item--bottom"><a href="#"
-                  class="header__nav-link header__nav-link--bottom" aria-label="Перейти к разделу Рейтинги">Рейтинги</a>
+                  class="header__nav-link header__nav-link--bottom link-reset"
+                  aria-label="Перейти к разделу Рейтинги">Рейтинги</a>
               </li>
               <li class="header__nav-item header__nav-item--bottom"><a href="#"
-                  class="header__nav-link header__nav-link--bottom" aria-label="Перейти к разделу Реклама">Реклама</a>
+                  class="header__nav-link header__nav-link--bottom link-reset"
+                  aria-label="Перейти к разделу Реклама">Реклама</a>
               </li>
             </ul>
           </nav>
@@ -224,7 +230,7 @@
               жанре. Говорим о&nbsp;музыке, политике, истории, науке и&nbsp;культуре. Здесь, помимо прямого
               эфира&nbsp;&mdash; архив передач и&nbsp;многое другое:&#41;</p>
           </div>
-          <a class="hero__link" href="#" aria-label="Ссылка на радио эфир">Слушать эфир</a>
+          <a class="hero__link link-reset" href="#" aria-label="Ссылка на радио эфир">Слушать эфир</a>
         </div>
       </section>
       <section class="podcasts" id="podcasts">
@@ -232,9 +238,9 @@
           <h2 class="podcasts__title title">Подкасты</h2>
           <ul class="podcasts__list list-reset" id="podcasts-list">
             <li class="podcasts__item">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-one-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-one-img.png" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-one-img.png" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-06-14">14&nbsp;июня</time>
               <div class="podcasts__wrapper">
@@ -293,9 +299,9 @@
               </div>
             </li>
             <li class="podcasts__item">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-two-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-two-img.png" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-two-img.png" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-06-11">11&nbsp;июня</time>
               <div class="podcasts__wrapper">
@@ -354,9 +360,9 @@
               </div>
             </li>
             <li class="podcasts__item">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-three-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-three-img.png" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-three-img.png" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-06-08">8&nbsp;июня</time>
               <div class="podcasts__wrapper">
@@ -415,9 +421,9 @@
               </div>
             </li>
             <li class="podcasts__item">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-four-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-four-img.png" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-four-img.png" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-06-05">5&nbsp;июня</time>
               <div class="podcasts__wrapper">
@@ -476,9 +482,9 @@
               </div>
             </li>
             <li class="podcasts__item">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-five-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-five-img.png" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-five-img.png" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-06-02">2&nbsp;июня</time>
               <div class="podcasts__wrapper">
@@ -537,9 +543,9 @@
               </div>
             </li>
             <li class="podcasts__item">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-six-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-six-img.png" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-six-img.png" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-05-28">28&nbsp;мая</time>
               <div class="podcasts__wrapper">
@@ -598,9 +604,9 @@
               </div>
             </li>
             <li class="podcasts__item">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-seven-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-seven-img.png" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-seven-img.png" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-05-22">22&nbsp;мая</time>
               <div class="podcasts__wrapper">
@@ -659,9 +665,9 @@
               </div>
             </li>
             <li class="podcasts__item">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-eight-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-eight-img.png" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-eight-img.png" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-05-18">18&nbsp;мая</time>
               <div class="podcasts__wrapper">
@@ -720,9 +726,9 @@
               </div>
             </li>
             <li class="podcasts__item podcasts__item--hide">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-nine-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-nine-img.jpg" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-nine-img.jpg" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-05-18">18&nbsp;мая</time>
               <div class="podcasts__wrapper">
@@ -781,9 +787,9 @@
               </div>
             </li>
             <li class="podcasts__item podcasts__item--hide">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-nine-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-nine-img.jpg" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-nine-img.jpg" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-05-18">18&nbsp;мая</time>
               <div class="podcasts__wrapper">
@@ -842,9 +848,9 @@
               </div>
             </li>
             <li class="podcasts__item podcasts__item--hide">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-nine-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-nine-img.jpg" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-nine-img.jpg" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-05-18">18&nbsp;мая</time>
               <div class="podcasts__wrapper">
@@ -903,9 +909,9 @@
               </div>
             </li>
             <li class="podcasts__item podcasts__item--hide">
-              <picture class="podcasts__img">
+              <picture class="podcasts__picture">
                 <source srcset="img/320/podcasts-nine-320.jpg" media="(max-width: 480px)">
-                <img src="img/podcasts-nine-img.jpg" alt="Обложка подкаста">
+                <img class="podcasts__img img-start" src="img/podcasts-nine-img.jpg" alt="Обложка подкаста">
               </picture>
               <time class="podcasts__date" datetime="2023-05-18">18&nbsp;мая</time>
               <div class="podcasts__wrapper">
@@ -988,22 +994,22 @@
               </div>
             </div>
             <div class="broadcast__more-wrapper">
-              <a class="broadcast__link-more" href="#" aria-label="Ссылка на архив передач">Архив</a>
+              <a class="broadcast__link-more link-reset" href="#" aria-label="Ссылка на архив передач">Архив</a>
               <p class="broadcast__footnote">В&nbsp;архив попадают все передачи, которые вы&nbsp;пропустили! Enjoy:&#41;
               </p>
             </div>
           </div>
           <ul class="broadcast__wrapper-right list-reset">
             <li class="broadcast__item">
-              <picture class="broadcast__img">
+              <picture class="broadcast__picture">
                 <source srcset="img/320/broadcast-one-320.jpg" media="(max-width: 360px)">
                 <source srcset="img/768/broadcast-one-768.jpg " media="(max-width: 1004px)">
-                <img src="img/broadcast-one-img.jpg" alt="Фотография обложки передачи">
+                <img class="broadcast__img img-start" src="img/broadcast-one-img.jpg" alt="Фотография обложки передачи">
               </picture>
               <div class="broadcast__info">
                 <span class="broadcast__topic">О&nbsp;людях и&nbsp;книгах</span>
                 <span class="broadcast__announcement">Анонсируется отдельно</span>
-                <a class="broadcast__link-detailed" href="#"
+                <a class="broadcast__link-detailed link-reset" href="#"
                   aria-label="Перейти на страницу передачи для более подробного ознакомления">
                   Подробнее
                   <svg width="28" height="12" viewBox="0 0 28 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1015,15 +1021,15 @@
               </div>
             </li>
             <li class="broadcast__item">
-              <picture class="broadcast__img">
+              <picture class="broadcast__picture">
                 <source srcset="img/320/broadcast-two-320.jpg" media="(max-width: 360px)">
                 <source srcset="img/768/broadcast-two-768.jpg " media="(max-width: 1004px)">
-                <img src="img/broadcast-two-img.jpg" alt="Фотография обложки передачи">
+                <img class="broadcast__img img-start" src="img/broadcast-two-img.jpg" alt="Фотография обложки передачи">
               </picture>
               <div class="broadcast__info">
                 <span class="broadcast__topic">Графомания td</span>
                 <span class="broadcast__announcement">По&nbsp;понедельникам в&nbsp;10:00</span>
-                <a class="broadcast__link-detailed" href="#"
+                <a class="broadcast__link-detailed link-reset" href="#"
                   aria-label="Перейти на страницу передачи для более подробного ознакомления">
                   Подробнее
                   <svg width="28" height="12" viewBox="0 0 28 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1035,15 +1041,16 @@
               </div>
             </li>
             <li class="broadcast__item">
-              <picture class="broadcast__img">
+              <picture class="broadcast__picture">
                 <source srcset="img/320/broadcast-three-320.jpg" media="(max-width: 360px)">
                 <source srcset="img/768/broadcast-three-768.jpg " media="(max-width: 1004px)">
-                <img src="img/broadcast-three-img.jpg" alt="Фотография обложки передачи">
+                <img class="broadcast__img img-start" src="img/broadcast-three-img.jpg"
+                  alt="Фотография обложки передачи">
               </picture>
               <div class="broadcast__info">
                 <span class="broadcast__topic">Не&nbsp;Рим, не&nbsp;Троя</span>
                 <span class="broadcast__announcement">По&nbsp;вторникам в&nbsp;12:00</span>
-                <a class="broadcast__link-detailed" href="#"
+                <a class="broadcast__link-detailed link-reset" href="#"
                   aria-label="Перейти на страницу передачи для более подробного ознакомления">
                   Подробнее
                   <svg width="28" height="12" viewBox="0 0 28 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1055,15 +1062,16 @@
               </div>
             </li>
             <li class="broadcast__item">
-              <picture class="broadcast__img">
+              <picture class="broadcast__picture">
                 <source srcset="img/320/broadcast-four-320.jpg" media="(max-width: 360px)">
                 <source srcset="img/768/broadcast-four-768.jpg " media="(max-width: 1004px)">
-                <img src="img/broadcast-four-img.jpg" alt="Фотография обложки передачи">
+                <img class="broadcast__img img-start" src="img/broadcast-four-img.jpg"
+                  alt="Фотография обложки передачи">
               </picture>
               <div class="broadcast__info">
                 <span class="broadcast__topic">Эрудит</span>
                 <span class="broadcast__announcement">По&nbsp;пятницам в&nbsp;17:00</span>
-                <a class="broadcast__link-detailed" href="#"
+                <a class="broadcast__link-detailed link-reset" href="#"
                   aria-label="Перейти на страницу передачи для более подробного ознакомления">
                   Подробнее
                   <svg width="28" height="12" viewBox="0 0 28 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1075,15 +1083,16 @@
               </div>
             </li>
             <li class="broadcast__item">
-              <picture class="broadcast__img">
+              <picture class="broadcast__picture">
                 <source srcset="img/320/broadcast-five-320.jpg" media="(max-width: 360px)">
                 <source srcset="img/768/broadcast-five-768.jpg " media="(max-width: 1004px)">
-                <img src="img/broadcast-five-img.jpg" alt="Фотография обложки передачи">
+                <img class="broadcast__img img-start" src="img/broadcast-five-img.jpg"
+                  alt="Фотография обложки передачи">
               </picture>
               <div class="broadcast__info">
                 <span class="broadcast__topic">Тонкости эпох</span>
                 <span class="broadcast__announcement">По&nbsp;субботам в&nbsp;10:00</span>
-                <a class="broadcast__link-detailed" href="#"
+                <a class="broadcast__link-detailed link-reset" href="#"
                   aria-label="Перейти на страницу передачи для более подробного ознакомления">
                   Подробнее
                   <svg width="28" height="12" viewBox="0 0 28 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1095,15 +1104,15 @@
               </div>
             </li>
             <li class="broadcast__item">
-              <picture class="broadcast__img">
+              <picture class="broadcast__picture">
                 <source srcset="img/320/broadcast-six-320.jpg" media="(max-width: 360px)">
                 <source srcset="img/768/broadcast-six-768.jpg " media="(max-width: 1004px)">
-                <img src="img/broadcast-six-img.jpg" alt="Фотография обложки передачи">
+                <img class="broadcast__img img-start" src="img/broadcast-six-img.jpg" alt="Фотография обложки передачи">
               </picture>
               <div class="broadcast__info">
                 <span class="broadcast__topic">Живые мысли</span>
                 <span class="broadcast__announcement">По&nbsp;воскресеньям в&nbsp;15:30</span>
-                <a class="broadcast__link-detailed" href="#"
+                <a class="broadcast__link-detailed link-reset" href="#"
                   aria-label="Перейти на страницу передачи для более подробного ознакомления">
                   Подробнее
                   <svg width="28" height="12" viewBox="0 0 28 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1644,14 +1653,14 @@
               </li>
             </ul>
             <div class="guests__wrapper-info" id="guests-tab">
-              <picture class="guests__img">
+              <picture class="guests__picture">
                 <source srcset="img/guests-img.jpg" media="(max-width: 480px)">
                 <source srcset="img/768/guests-img-768.jpg" media="(max-width: 1004px)">
-                <img src="img/guests-img.jpg" alt="Фотография гостя">
+                <img class="guests__img img-start" src="img/guests-img.jpg" alt="Фотография гостя">
               </picture>
               <ul class="guests__socialmedia-list list-reset">
                 <li class="guests__socialmedia-item">
-                  <a class="guests__socialmedia-link" href="#"
+                  <a class="guests__socialmedia-link link-reset" href="#"
                     aria-label="Ссылка на *instagram гостя *Запрещен на территории РФ">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5305)">
@@ -1668,7 +1677,7 @@
                   </a>
                 </li>
                 <li class="guests__socialmedia-item">
-                  <a class="guests__socialmedia-link" href="#"
+                  <a class="guests__socialmedia-link link-reset" href="#"
                     aria-label="Ссылка на *facebook гостя *Запрещен на территории РФ">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5308)">
@@ -1685,7 +1694,7 @@
                   </a>
                 </li>
                 <li class="guests__socialmedia-item">
-                  <a class="guests__socialmedia-link" href="#" aria-label="Ссылка на twitter гостя">
+                  <a class="guests__socialmedia-link link-reset" href="#" aria-label="Ссылка на twitter гостя">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5311)">
                         <path
@@ -1706,7 +1715,7 @@
                 культурологии. Арт-критик газеты
                 &laquo;Коммерсантъ&raquo;. Ведёт активную блогерскую деятельность как куратор музея &laquo;Гараж&raquo;,
                 коим является с&nbsp;2016&nbsp;года.</p>
-              <a class="guests__link-play" href="#" aria-label="Ссылка на эфир с гостем">Эфиры
+              <a class="guests__link-play link-reset" href="#" aria-label="Ссылка на эфир с гостем">Эфиры
                 с&nbsp;гостем</a>
             </div>
           </div>
@@ -1781,15 +1790,16 @@
           </div>
           <ul class="playlists__artists-list list-reset">
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-one-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-one-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Ploho</span>
@@ -1798,15 +1808,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-two-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-two-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Molchat Doma</span>
@@ -1815,15 +1826,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-three-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-three-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Motorama</span>
@@ -1832,15 +1844,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-four-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-four-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Human Tetris</span>
@@ -1849,15 +1862,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-five-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-five-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Буерак</span>
@@ -1866,15 +1880,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-six-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-six-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Июльские Дни</span>
@@ -1883,15 +1898,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-seven-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-seven-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Joy Division</span>
@@ -1900,15 +1916,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-eight-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-eight-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">The Cure</span>
@@ -1917,15 +1934,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-nine-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-nine-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">The Smiths</span>
@@ -1934,15 +1952,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-ten-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-ten-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">New Order</span>
@@ -1951,15 +1970,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-eleven-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-eleven-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Bauhaus</span>
@@ -1968,15 +1988,16 @@
               </a>
             </li>
             <li class="playlists__artists-item">
-              <a class="playlists__artists-link" href="#" aria-label="Ссылка на треки исполнителя">
+              <a class="playlists__artists-link link-reset" href="#" aria-label="Ссылка на треки исполнителя">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="24" cy="24" r="21" fill="#6D31EE" />
                   <path
                     d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"
                     fill="white" />
                 </svg>
-                <picture class="playlists__artists-img">
-                  <img src="img/playlists-twelve-img.jpg" alt="Фотография музыкальной группы">
+                <picture class="playlists__artists-picture">
+                  <img class="playlists__artists-img img-start" src="img/playlists-twelve-img.jpg"
+                    alt="Фотография музыкальной группы">
                 </picture>
                 <div class="playlists__descr-info">
                   <span class="playlists__name">Gang Of Four</span>
@@ -1989,8 +2010,8 @@
       </section>
       <section class="adv">
         <div class="adv__container container">
-          <picture class="adv__img">
-            <img src="img/abv-one-img.png" alt="Фотография радиоприемника фирым W-Wave">
+          <picture class="adv__picture">
+            <img class="adv__img img-start" src="img/abv-one-img.png" alt="Фотография радиоприемника фирым W-Wave">
           </picture>
           <div class="adv__info">
             <h3 class="adv__title">Будь с&nbsp;нами на&nbsp;одной волне!</h3>
@@ -2003,7 +2024,7 @@
               всех делатей, ручная сборка, качественный звук. Пока доступно только 60&nbsp;штук в&nbsp;3&nbsp;цветах,
               но&nbsp;мы&nbsp;активно трудимся над новыми партиями и&nbsp;дизайном. Спешите приобрести!</p>
             <span class="adv__price">2&nbsp;800&nbsp;₽</span>
-            <a class="adv__link" href="#" aria-label="Ссылка на товар Яндекс.Маркет">
+            <a class="adv__link link-reset" href="#" aria-label="Ссылка на товар Яндекс.Маркет">
               <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_91051_967)">
                   <path
@@ -2040,56 +2061,62 @@
             <div class="about__swiper">
               <div class="about__swiper-wrapper swiper-wrapper">
                 <div class="about__swiper-slide swiper-slide">
-                  <picture class="about__swiper-image">
+                  <picture class="about__swiper-picture">
                     <source srcset="img/about-one-img.jpg" media="(max-width: 850px)">
                     <source srcset="img/1024/about-one-1024.jpg" media="(max-width: 1024px)">
-                    <img src="img/about-one-img.jpg" alt="Фотография сотрудника компании">
+                    <img class="about__swiper-img img-start" src="img/about-one-img.jpg"
+                      alt="Фотография сотрудника компании">
                   </picture>
                   <span class="about__swiper-name">Дмитрий Гутенберг</span>
                   <p class="about__swiper-description">Эксперт (ну, почти) по&nbsp;всем вопросам (почти)</p>
                 </div>
                 <div class="about__swiper-slide swiper-slide">
-                  <picture class="about__swiper-image">
+                  <picture class="about__swiper-picture">
                     <source srcset="img/about-two-img.jpg" media="(max-width: 850px)">
                     <source srcset="img/1024/about-two-1024.jpg" media="(max-width: 1024px)">
-                    <img src="img/about-two-img.jpg" alt="Фотография сотрудника компании">
+                    <img class="about__swiper-img img-start" src="img/about-two-img.jpg"
+                      alt="Фотография сотрудника компании">
                   </picture>
                   <span class="about__swiper-name">Анна Васильева</span>
                   <p class="about__swiper-description">Как я&nbsp;здесь оказалась? А&nbsp;главное&nbsp;&mdash; зачем?
                   </p>
                 </div>
                 <div class="about__swiper-slide swiper-slide">
-                  <picture class="about__swiper-image">
+                  <picture class="about__swiper-picture">
                     <source srcset="img/about-three-img.jpg" media="(max-width: 850px)">
                     <source srcset="img/1024/about-three-1024.jpg" media="(max-width: 1024px)">
-                    <img src="img/about-three-img.jpg" alt="Фотография сотрудника компании">
+                    <img class="about__swiper-img img-start" src="img/about-three-img.jpg"
+                      alt="Фотография сотрудника компании">
                   </picture>
                   <span class="about__swiper-name">Пётр Дмитриевский</span>
                   <p class="about__swiper-description">Господа! Внимание! Благодарю за&nbsp;внимание!</p>
                 </div>
                 <div class="about__swiper-slide swiper-slide">
-                  <picture class="about__swiper-image">
+                  <picture class="about__swiper-picture">
                     <source srcset="img/about-four-img.jpg" media="(max-width: 850px)">
                     <source srcset="img/1024/about-four-1024.jpg" media="(max-width: 1024px)">
-                    <img src="img/about-four-img.jpg" alt="Фотография сотрудника компании">
+                    <img class="about__swiper-img img-start" src="img/about-four-img.jpg"
+                      alt="Фотография сотрудника компании">
                   </picture>
                   <span class="about__swiper-name">Татьяна Флеганова</span>
                   <p class="about__swiper-description">Одна я&nbsp;в&nbsp;пальто стою красивая, а&nbsp;вокруг...</p>
                 </div>
                 <div class="about__swiper-slide swiper-slide swiper-slide--no-swipe">
-                  <picture class="about__swiper-image">
+                  <picture class="about__swiper-picture">
                     <source srcset="img/about-five-img.jpg" media="(max-width: 850px)">
                     <source srcset="img/1024/about-five-1024.jpg" media="(max-width: 1024px)">
-                    <img src="img/about-five-img.jpg" alt="Фотография сотрудника компании">
+                    <img class="about__swiper-img img-start" src="img/about-five-img.jpg"
+                      alt="Фотография сотрудника компании">
                   </picture>
                   <span class="about__swiper-name">Фёдор Прокопьев</span>
                   <p class="about__swiper-description">Привет! Я&nbsp;фотограф, музыкант, ведущий</p>
                 </div>
                 <div class="about__swiper-slide swiper-slide swiper-slide--no-swipe">
-                  <picture class="about__swiper-image">
+                  <picture class="about__swiper-picture">
                     <source srcset="img/about-six-img.jpg" media="(max-width: 850px)">
                     <source srcset="img/1024/about-six-1024.jpg" media="(max-width: 1024px)">
-                    <img src="img/about-six-img.jpg" alt="Фотография сотрудника компании">
+                    <img class="about__swiper-img img-start" src="img/about-six-img.jpg"
+                      alt="Фотография сотрудника компании">
                   </picture>
                   <span class="about__swiper-name">Светлана Кортнева</span>
                   <p class="about__swiper-description">Художник-оформитель. Оформляю</p>
@@ -2140,14 +2167,14 @@
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__wrapper-left">
-          <a class="footer__logo" href="#" aria-label="Перейти на главную страницу W-Wave Radio">
-            <picture class="footer__logo-img">
-              <img src="img/footer-logo-img.svg" alt="Логотип W-Wave Radio">
+          <a class="footer__logo link-reset" href="#" aria-label="Перейти на главную страницу W-Wave Radio">
+            <picture class="footer__logo-picture">
+              <img class="footer__logo-img img-start" src="img/footer-logo-img.svg" alt="Логотип W-Wave Radio">
             </picture>
           </a>
           <ul class="footer__social-list list-reset">
             <li class="footer__social-item">
-              <a href="#" class="footer__social-link" aria-label="Перейти наш канал на YouTube">
+              <a href="#" class="footer__social-link link-reset" aria-label="Перейти наш канал на YouTube">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_24531_5372)">
                     <path
@@ -2163,7 +2190,7 @@
               </a>
             </li>
             <li class="footer__social-item">
-              <a href="#" class="footer__social-link" aria-label="Перейти в нашу группу в Одноклассниках">
+              <a href="#" class="footer__social-link link-reset" aria-label="Перейти в нашу группу в Одноклассниках">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_24531_5373)">
                     <path
@@ -2182,7 +2209,7 @@
               </a>
             </li>
             <li class="footer__social-item">
-              <a href="#" class="footer__social-link" aria-label="Перейти в нашу группу в Вконтакте">
+              <a href="#" class="footer__social-link link-reset" aria-label="Перейти в нашу группу в Вконтакте">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M2 8C2 4.68652 4.68652 2 8 2H16C19.3135 2 22 4.68652 22 8V16C22 19.3135 19.3135 22 16 22H8C4.68652 22 2 19.3135 2 16V8ZM17.3438 13.4473C17.7139 13.7778 18.0845 14.1089 18.4121 14.4795C18.5415 14.626 18.6665 14.7754 18.7769 14.9346C18.835 15.0181 18.8892 15.104 18.938 15.1934C19.0425 15.3848 19.0439 15.5859 18.9727 15.7383C18.9058 15.8809 18.7754 15.981 18.606 15.9917L16.4209 15.9912C15.8569 16.0356 15.4077 15.8208 15.0293 15.4575C14.7271 15.1675 14.4468 14.8584 14.1558 14.5586C14.0366 14.4355 13.9116 14.3198 13.7622 14.2285C13.5962 14.1265 13.4419 14.0991 13.3086 14.1455C13.2031 14.1821 13.1104 14.2656 13.0352 14.3955C12.8613 14.6938 12.8213 15.0244 12.8047 15.3564C12.7812 15.8418 12.6255 15.9688 12.1089 15.9917C11.0044 16.0405 9.95654 15.8823 8.98242 15.3574C8.12305 14.8945 7.45801 14.2417 6.87842 13.502C5.75 12.0601 4.88574 10.4775 4.10938 8.84912C3.93457 8.48242 4.0625 8.28662 4.4917 8.27881C5.20459 8.26611 5.91797 8.26758 6.63086 8.27832C6.9209 8.28271 7.11279 8.43896 7.22461 8.69727C7.60986 9.59082 8.08203 10.4409 8.67432 11.229L8.78369 11.3721C8.90918 11.5317 9.04541 11.6826 9.22217 11.7969C9.4751 11.9604 9.66797 11.9062 9.7876 11.6401C9.86377 11.4707 9.89697 11.2896 9.91357 11.1084C9.97021 10.4873 9.97705 9.86621 9.87891 9.24756C9.81787 8.86035 9.58643 8.61035 9.17725 8.53711C8.96826 8.49951 8.99902 8.42676 9.10059 8.31445C9.27637 8.12061 9.44141 8.00049 9.771 8.00049L12.2397 8C12.6284 8.07178 12.7158 8.23633 12.7686 8.60596L12.771 11.1909C12.7661 11.334 12.8472 11.7578 13.1191 11.8511C13.3374 11.9189 13.4814 11.7539 13.6118 11.624C14.2036 11.0317 14.6255 10.333 15.0034 9.60986C15.1699 9.29102 15.314 8.96094 15.4536 8.63037C15.5024 8.51562 15.5635 8.42822 15.6455 8.36816C15.7378 8.30029 15.8564 8.26758 16.0117 8.26953L18.3887 8.27246C18.4585 8.27246 18.5298 8.27295 18.5991 8.28418C18.8101 8.31836 18.9404 8.37939 18.9985 8.4834C19.0503 8.57666 19.0439 8.70508 18.9854 8.87939C18.7979 9.43555 18.4399 9.90283 18.0835 10.3677L18.041 10.4233C17.6436 10.9409 17.2202 11.4399 16.8271 11.96C16.4658 12.4346 16.4941 12.6738 16.9429 13.0864C17.0752 13.208 17.2095 13.3276 17.3438 13.4473Z"
@@ -2195,31 +2222,34 @@
         <nav class="footer__nav">
           <ul class="footer__nav-list list-reset">
             <li class="footer__nav-item">
-              <a href="#podcasts" class="footer__nav-link" aria-label="Перейти к разделу Подкасты">Подкасты</a>
+              <a href="#podcasts" class="footer__nav-link link-reset"
+                aria-label="Перейти к разделу Подкасты">Подкасты</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#playlists" class="footer__nav-link" aria-label="Перейти к разделу Плейлисты">Плейлисты</a>
+              <a href="#playlists" class="footer__nav-link link-reset"
+                aria-label="Перейти к разделу Плейлисты">Плейлисты</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link" aria-label="Перейти к разделу Новости">Новости</a>
+              <a href="#" class="footer__nav-link link-reset" aria-label="Перейти к разделу Новости">Новости</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#broadcast" class="footer__nav-link" aria-label="Перейти к разделу Передачи">Передачи</a>
+              <a href="#broadcast" class="footer__nav-link link-reset"
+                aria-label="Перейти к разделу Передачи">Передачи</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link" aria-label="Перейти к разделу Сетка">Сетка</a>
+              <a href="#" class="footer__nav-link link-reset" aria-label="Перейти к разделу Сетка">Сетка</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link" aria-label="Перейти к разделу Блоги">Блоги</a>
+              <a href="#" class="footer__nav-link link-reset" aria-label="Перейти к разделу Блоги">Блоги</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#guests" class="footer__nav-link" aria-label="Перейти к разделу Гости">Гости</a>
+              <a href="#guests" class="footer__nav-link link-reset" aria-label="Перейти к разделу Гости">Гости</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#about" class="footer__nav-link" aria-label="Перейти к разделу О нас">О&nbsp;нас</a>
+              <a href="#about" class="footer__nav-link link-reset" aria-label="Перейти к разделу О нас">О&nbsp;нас</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link" aria-label="Перейти к разделу Топы">Топы</a>
+              <a href="#" class="footer__nav-link link-reset" aria-label="Перейти к разделу Топы">Топы</a>
             </li>
           </ul>
         </nav>
@@ -2235,7 +2265,7 @@
           </svg>
         </button>
         <h2 class="modal__title title">Вход</h2>
-        <p class="modal__descr">Если у&nbsp;вас ещё нет аккаунта, <a href="#"
+        <p class="modal__descr">Если у&nbsp;вас ещё нет аккаунта, <a href="#" class="link-reset"
             aria-label="Зарегистрировать учетную запись на сайте">зарегистрируйтесь</a></p>
         <form class="modal__form" action="https://jsonplaceholder.typicode.com/posts" method="post"
           novalidate="novalidate">
@@ -2245,7 +2275,7 @@
         </form>
         <span class="modal__social-descr">Войти с&nbsp;помощью:</span>
         <ul class="modal__social-links list-reset">
-          <li class="modal__social-link"><a class="modal__link" href="#"
+          <li class="modal__social-link"><a class="modal__link link-reset" href="#"
               aria-label="Войти с помошью учетной записи от facebook">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_24531_5473)">
@@ -2260,7 +2290,7 @@
                 </defs>
               </svg>
             </a></li>
-          <li class="modal__social-link"><a class="modal__link" href="#"
+          <li class="modal__social-link"><a class="modal__link link-reset" href="#"
               aria-label="Войти с помошью учетной записи от Вконтакте">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="3" y="3" width="33.33" height="33.33" rx="2" fill="#A1A6B4" />
@@ -2269,7 +2299,7 @@
                   fill="#121723" />
               </svg>
             </a></li>
-          <li class="modal__social-link"><a class="modal__link" href="#"
+          <li class="modal__social-link"><a class="modal__link link-reset" href="#"
               aria-label="Войти с помошью учетной записи от google">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="3" y="3" width="33.33" height="33.33" rx="2" fill="#A1A6B4" />

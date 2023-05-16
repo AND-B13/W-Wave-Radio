@@ -506,6 +506,12 @@ document.addEventListener('DOMContentLoaded', function () {
           guestsTab.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
         }
 
+        const tabActiveRem = document.querySelector('.guests__choice-name--active');
+        tabActiveRem.classList.remove('guests__choice-name--active');
+
+        const tabActiveAdd = listElements[i].firstElementChild.firstElementChild;
+        tabActiveAdd.classList.add('guests__choice-name--active');
+
         const id = listElements[i].firstElementChild.dataset.id;
         createTabContent(guestsArr, id);
       })

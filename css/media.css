@@ -2350,6 +2350,11 @@
     font-size: 12px;
   }
 
+  .about__checkbox-wrapper .just-validate-error-label:nth-last-child(1) {
+    top: -17px;
+    left: 23px;
+  }
+
   /* modal */
 
   .modal__container {

@@ -2316,6 +2316,11 @@ body {
   line-height: 12px;
 }
 
+.about__checkbox-wrapper .just-validate-error-label:nth-last-child(1) {
+  top: -17px;
+  left: 23px;
+}
+
 .just-validate-error-field {
   border-color: #D52B1E;
   color: #D52B1E;

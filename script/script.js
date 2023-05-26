@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // scrol
+  // scrol
 
-    document.addEventListener('click', function (e) {
-      if (e.target.matches('a[href^="#"]')) {
-        e.preventDefault();
+  document.addEventListener('click', function (e) {
+    if (e.target.matches('a[href^="#"]')) {
+      e.preventDefault();
 
-        document.querySelector(e.target.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      }
-    });
+      document.querySelector(e.target.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  });
 
   // burger
 
@@ -561,13 +561,15 @@ document.addEventListener('DOMContentLoaded', function () {
   // valid form
 
   const validation = new JustValidate('.about__form');
-  validation.addField('#about-textarea', [{
-    rule: 'minLength',
-    value: 7,
-    errorMessage: 'Введите свое сообщение',
-  },
-  ])
-    .addField('#about-input-name', [{
+
+  validation.addField('#about-textarea', [
+    {
+      rule: 'minLength',
+      value: 7,
+      errorMessage: 'Введите свое сообщение',
+    },
+  ]).addField('#about-input-name', [
+    {
       rule: 'minLength',
       value: 2,
       errorMessage: 'Вы не ввели имя',
@@ -576,15 +578,38 @@ document.addEventListener('DOMContentLoaded', function () {
       rule: 'maxLength',
       value: 30,
       errorMessage: 'Проверьте правильность введенного имени',
-    }
-    ])
-    .addField('#about-input-email', [{
+    },
+  ]).addField('#about-input-email', [
+    {
       rule: 'required',
       errorMessage: 'Вы не ввели e-mail',
     },
     {
       rule: 'email',
       errorMessage: 'Вы не ввели e-mail',
+    },
+  ]).addField('#checkbox', [
+    {
+      rule: 'required',
+      errorMessage: 'Вы не приняли согласие :(',
+    },
+  ]).onSuccess(async function () {
+
+    const data = {
+      name: document.getElementById('about-input-name').value,
+      mail: document.getElementById('about-input-email').value,
+      msg: document.getElementById('about-textarea').value,
     }
-    ])
+
+    const response = await fetch("mail.php", {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json; charset=UTF-8"
+      }
+    })
+
+    const result = await response.text();
+    alert('Сообщение успешно отправлено!')
+  })
 });
